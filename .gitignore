@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyd
+*.csv
+*.zip
+*.exe
