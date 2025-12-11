@@ -1,48 +1,5 @@
-# --- PYTHON GENERAL ---
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# --- VIRTUAL ENV ---
-venv/
-.env/
-*.env
-
-# --- JUPYTER NOTEBOOK CHECKPOINTS ---
-.ipynb_checkpoints/
-
-# --- DATASETS (opsional, tambahkan kalau mau exclude data folder) ---
-data/
-*.csv
-*.xlsx
-
-# --- ML MODEL FILES (besarnya > 100MB bisa gagal upload) ---
 *.pkl
-*.joblib
-*.model
-*.cbm
-
-# Tapi folder models tetap include, jadi hanya isi dalamnya yang di-ignore
-models/*.pkl
-models/*.cbm
-models/*.model
-models/*.joblib
-
-# CatBoost logs
-catboost_info/
-
-# XGBoost logs
-xgboost_info/
-
-# Logs
 logs/
-
-# --- DRAWIO, PDF, AI (opsional, besar2) ---
-*.pdf
-*.drawio
-*.ai
-
-# --- OTHERS ---
-*.zip
-.DS_Store
